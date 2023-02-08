@@ -111,6 +111,11 @@ a {
     vertical-align: middle;
 }
 
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 
 /************************
@@ -148,6 +153,10 @@ main{
 
 #content nav{
     margin-top:50px;
+}
+
+#content nav ul{
+    list-style: none;
 }
 
 #content nav ul li{
