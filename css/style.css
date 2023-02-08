@@ -75,11 +75,72 @@ body{
        STYLE RULES
 ************************/
 
+/*main*/
 
 main{
-    height: calc(100vh - 80px);
+    height: calc(100vh - 100px);
+}
+
+/*side-bar*/
+#side-bar{
+    width: 50px;
+    background-color: var(--black-color);
+}
+
+
+
+/*content*/
+
+#content{
+    width: calc(100% - 50px);
     background-color: var(--dark-blue-color);
 }
+
+
+/*footer*/
+
 footer{
+    height: 100px;
     background-color: var(--light-black-color);
 }
+
+
+
+/************************
+       RESPONSIVE RULES
+************************/
+
+
+
+/*SMALL*/
+
+@media screen and (min-width: 576px) {
+
+    #side-bar{
+        width: 200px;
+    }
+
+    #content{
+        width: calc(100% - 200px);
+    }
+}
+
+/*MEDIUM*/
+
+@media screen and (min-width: 768px) {
+
+
+}
+
+/*LARGE*/
+
+@media screen and (min-width: 992px) {
+
+}
+
+/*XL*/
+
+@media screen and (min-width: 1200px) {
+
+}
+
