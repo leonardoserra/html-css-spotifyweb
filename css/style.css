@@ -73,6 +73,7 @@ a {
 .white-text{
     color: var(--white-color);
 }
+
 .d-flex{
     display: flex;
 }
@@ -172,6 +173,7 @@ main{
 }
 
 /*   section    */
+
 section{
     margin-top:20px;
 }
