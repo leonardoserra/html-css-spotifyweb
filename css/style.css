@@ -40,6 +40,15 @@ body{
     height: 50px;
 }
 
+/************************
+       GLOBAL RULES
+************************/
+
+a {
+    text-decoration: none;
+}
+
+
 
 
 /************************
@@ -62,6 +71,14 @@ body{
 
 .d-flex{
     display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.justify-center{
+    justify-content: center;
 }
 
 .space-between{
@@ -129,6 +146,17 @@ main{
     height: 50px;
 }
 
+#content nav{
+    margin-top:50px;
+}
+
+#content nav ul li{
+    width: calc(100% / 4 - 30px);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
 
 
 
@@ -163,12 +191,20 @@ footer{
         left: 200px;
         width: calc(100vw - 200px);
     }
+
+    #content nav ul li{
+        width: calc(100% / 3 - 30px);
+    }
     
 }
 
 /*MEDIUM*/
 
 @media screen and (min-width: 768px) {
+    
+    #content nav ul li{
+        width: calc(100% / 5 - 30px);
+    }
 
 
 }
