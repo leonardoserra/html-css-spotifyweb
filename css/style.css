@@ -10,6 +10,7 @@
 
 html{
     font-family: 'Raleway', sans-serif;
+    min-height: 350px;
 }
 
 body{
@@ -146,11 +147,14 @@ main{
 
 /*side-bar*/
 #side-bar{
-    height: 100%;
     width: 50px;
     background-color: var(--black-color);
 }
 
+.bottom-bar{
+    bottom: 100px;
+    left: 0;
+}
 
 
 /*content*/
