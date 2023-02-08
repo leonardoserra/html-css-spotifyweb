@@ -36,6 +36,10 @@ body{
     border: 1px dashed red;
 }
 
+.debug-height-50{
+    height: 50px;
+}
+
 
 
 /************************
@@ -52,6 +56,7 @@ body{
     --light-grey-color: #c9c9c9;
     --white-color: #f5f5f5;
     --green-acid-color: #b8ff30;
+    --layover-light-black: rgba(255, 255, 255, 0.4);
 
 }
 
@@ -67,7 +72,27 @@ body{
     align-items: center;
 }
 
+.pos-rel{
+    position: relative;
+}
 
+.pos-fix{
+    position: fixed;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.middle-align{
+    vertical-align: middle;
+}
 
 
 
@@ -96,6 +121,16 @@ main{
     background-color: var(--dark-blue-color);
 }
 
+.call-to-action{
+    top:0;
+    left: 50px;
+    width: calc(100vw - 50px);
+    background-color: var(--layover-light-black);
+    height: 50px;
+}
+
+
+
 
 /*footer*/
 
@@ -123,6 +158,12 @@ footer{
     #content{
         width: calc(100% - 200px);
     }
+
+    .call-to-action{
+        left: 200px;
+        width: calc(100vw - 200px);
+    }
+    
 }
 
 /*MEDIUM*/
