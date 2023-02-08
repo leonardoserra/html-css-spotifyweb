@@ -12,6 +12,9 @@ html{
     font-family: 'Raleway', sans-serif;
 }
 
+body{
+    position: relative;
+}
 
 /************************
        DEBUG RULES
