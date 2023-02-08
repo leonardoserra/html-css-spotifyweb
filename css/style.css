@@ -102,6 +102,7 @@ a {
 .d-none{
     display: none;
 }
+
 .pos-rel{
     position: relative;
 }
@@ -131,6 +132,7 @@ a {
 
 .scroll{
     overflow-y: scroll;
+   
 }
 
 
@@ -149,6 +151,12 @@ main{
 #side-bar{
     width: 50px;
     background-color: var(--black-color);
+}
+
+.top-bar .playlist .playlist-bar {
+    max-height: 250px;
+    overflow-y: hidden;
+    
 }
 
 .bottom-bar{
@@ -170,6 +178,7 @@ main{
     width: calc(100vw - 50px);
     background-color: var(--layover-light-black);
     height: 50px;
+    z-index: 9999;
 }
 
 #content nav{
@@ -205,6 +214,7 @@ section{
 /*footer*/
 
 footer{
+    z-index: 9999;
     height: 100px;
     background-color: var(--light-black-color);
 }
@@ -281,8 +291,8 @@ footer{
 
 /*overflow sidebar playlist*/
 
-@media screen and (max-height: 400px) {
-    .playlist-bar.scroll{
+@media screen and (max-height: 650px) {
+    .top-bar .playlist .playlist-bar {
         overflow-y: scroll;
     }
 }
