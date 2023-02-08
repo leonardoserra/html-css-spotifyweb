@@ -212,12 +212,10 @@ footer{
 /*LARGE*/
 
 @media screen and (min-width: 992px) {
-
+    #content nav ul li{
+        width: calc(100% / 6 - 30px);
+    }
 }
 
-/*XL*/
 
-@media screen and (min-width: 1200px) {
-
-}
 
