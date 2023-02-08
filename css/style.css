@@ -78,6 +78,10 @@ a {
     display: flex;
 }
 
+.direction-column{
+    flex-direction: column;
+}
+
 .wrap{
     flex-wrap: wrap;
 }
@@ -94,6 +98,9 @@ a {
     align-items: center;
 }
 
+.d-none{
+    display: none;
+}
 .pos-rel{
     position: relative;
 }
@@ -121,6 +128,10 @@ a {
     margin: 0 auto;
 }
 
+.scroll{
+    overflow-y: scroll;
+}
+
 
 
 /************************
@@ -146,7 +157,6 @@ main{
 #content{
     width: calc(100% - 50px);
     background-color: var(--dark-blue-color);
-    overflow-y: scroll;
 }
 
 .call-to-action{
@@ -222,6 +232,17 @@ footer{
     #content nav ul li{
         width: calc(100% / 3 - 30px);
     }
+
+    .d-none{
+        display: inline-block;
+    }
+
+    .playlist.d-none{
+        display: block;
+        width: 50%;
+    }
+
+
     
 }
 
@@ -255,8 +276,8 @@ footer{
 
 /*overflow sidebar playlist*/
 
-@media screen and (max-height: 45%) {
-    .playlist-bar{
+@media screen and (max-height: 400px) {
+    .playlist-bar.scroll{
         overflow-y: scroll;
     }
 }
