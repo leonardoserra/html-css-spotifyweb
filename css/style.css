@@ -20,16 +20,29 @@ body{
        DEBUG RULES
 ************************/
 
-footer .debug{
-    height: 80px;
+.debug-small-box{
+    height: 40px;
+    width: 80px;
+    background-color: var(--green-acid-color);
+}
+.debug-medium-box{
+    height: 100px;
+    width: 150px;
+    background-color:pink;
+    padding:10px;
 }
 
+.border-debug-red{
+    border: 1px dashed red;
+}
 
 
 
 /************************
        UTILITY RULES
 ************************/
+
+/*    color palette     */
 :root{
     --black-color: #000000;
     --dark-blue-color: #141922;
@@ -42,6 +55,18 @@ footer .debug{
 
 }
 
+.d-flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
 
 
 
@@ -49,3 +74,12 @@ footer .debug{
 /************************
        STYLE RULES
 ************************/
+
+
+main{
+    height: calc(100vh - 80px);
+    background-color: var(--dark-blue-color);
+}
+footer{
+    background-color: var(--light-black-color);
+}
