@@ -164,19 +164,6 @@ main{
     background-color: var(--black-color);
 }
 
-.list{
-    height: 100%;
-}
-
-#playlist ul{
-    height: clac(100%-50px);
-}
-
-#bottom-bar{
-    height: 50px;
-}
-
-
 
 
 
@@ -268,6 +255,15 @@ footer{
 
     #top-bar .d-none, #bottom-bar .d-none{
         display: inline;
+    }
+
+    #playlist{
+        flex-grow: 1;
+        display: flex;
+    }
+
+    #playlist ul{
+       flex-grow: 1;
     }
 
     
