@@ -155,12 +155,20 @@ main{
 #side-bar{
     height:100%;
     width: 50px;
-    min-height: 380px;
+    min-height: 400px;
     background-color: var(--black-color);
 }
 
 .top-bar{
     height: calc(100% - 50px);
+}
+
+.top-bar .playlist-bar{
+    max-height: 150px;
+}
+
+.top-bar .playlist-bar ul{
+    max-height: 150px;
 }
 
 .bottom-bar{
