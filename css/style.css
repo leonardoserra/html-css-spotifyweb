@@ -168,6 +168,7 @@ main{
 }
 
 .bottom-bar{
+    z-index: 0;
     bottom: 100px;
     left: 0;
 }
