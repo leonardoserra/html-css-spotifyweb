@@ -37,6 +37,10 @@ body{
     border: 1px dashed red;
 }
 
+.border-debug-green{
+    border: 1px dashed rgb(6, 236, 6);
+}
+
 .debug-height-50{
     height: 50px;
 }
