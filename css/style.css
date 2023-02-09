@@ -158,9 +158,6 @@ main{
     background-color: var(--black-color);
 }
 
-.playlist-container{
-    height: 250px;
-}
 .top-bar .playlist .playlist-bar {
     max-height: 250px;
     overflow-y: hidden;
@@ -256,11 +253,11 @@ footer{
         width: calc(100% / 3 - 30px);
     }
 
-    .d-none{
+    .side-bar .d-none{
         display: inline-block;
     }
 
-    .playlist.d-none{
+    .side-bar .playlist.d-none{
         display: block;
         width: 50%;
     }
