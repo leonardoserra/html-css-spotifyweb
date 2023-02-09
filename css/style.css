@@ -66,7 +66,7 @@ a {
     --light-grey-color: #c9c9c9;
     --white-color: #f5f5f5;
     --green-acid-color: #b8ff30;
-    --layover-light-black: rgba(255, 255, 255, 0.4);
+    --layover-light-black: rgba(0, 0, 0, 0.4);
 
 }
 
@@ -159,21 +159,6 @@ main{
     background-color: var(--black-color);
 }
 
-.top-bar{
-    
-}
-
-.top-bar .playlist-bar{
-    
-}
-
-.top-bar .playlist-bar ul{
-    
-}
-
-.bottom-bar{
-    
-}
 
 
 
