@@ -161,13 +161,11 @@ main{
 .top-bar .playlist .playlist-bar {
     max-height: 250px;
     overflow-y: hidden;
-    
 }
 
 .bottom-bar{
-    z-index: 0;
-    bottom: 100px;
-    left: 0;
+    align-self: flex-end;
+    
 }
 
 
@@ -296,19 +294,13 @@ footer{
 
 /*overflow sidebar playlist*/
 
-@media screen and (max-height: 650px) {
+/* @media screen and (max-height: 650px) {
     .top-bar .playlist .playlist-bar {
         overflow-y: auto;
     }
 
-}
+} */
 
-@media screen and (max-height: 340px) {
-
-    .bottom-bar{
-        display:none;
-    }
-}
 
 
 
