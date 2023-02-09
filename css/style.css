@@ -153,20 +153,25 @@ main{
 
 /*side-bar*/
 #side-bar{
+    height:100%;
     width: 50px;
     min-height: 380px;
     background-color: var(--black-color);
 }
 
-.top-bar .playlist .playlist-bar {
-    max-height: 250px;
-    overflow-y: hidden;
+.top-bar{
+    height: calc(100% - 50px);
 }
 
 .bottom-bar{
-    align-self: flex-end;
-    
+    height: 50px;
 }
+
+.top-bar .playlist .playlist-bar {
+min-height: 130px;
+max-height: 300px;
+}
+
 
 
 /*content*/
