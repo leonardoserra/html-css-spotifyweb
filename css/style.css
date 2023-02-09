@@ -135,6 +135,10 @@ a {
    
 }
 
+.overflow-y-hidden{
+    overflow-y: hidden;
+}
+
 
 
 /************************
@@ -150,9 +154,13 @@ main{
 /*side-bar*/
 #side-bar{
     width: 50px;
+    min-height: 380px;
     background-color: var(--black-color);
 }
 
+.playlist-container{
+    height: 250px;
+}
 .top-bar .playlist .playlist-bar {
     max-height: 250px;
     overflow-y: hidden;
@@ -214,7 +222,6 @@ section{
 /*footer*/
 
 footer{
-    z-index: 9999;
     height: 100px;
     background-color: var(--light-black-color);
 }
@@ -293,9 +300,18 @@ footer{
 
 @media screen and (max-height: 650px) {
     .top-bar .playlist .playlist-bar {
-        overflow-y: scroll;
+        overflow-y: auto;
+    }
+
+}
+
+@media screen and (max-height: 340px) {
+
+    .bottom-bar{
+        display:none;
     }
 }
+
 
 
 
