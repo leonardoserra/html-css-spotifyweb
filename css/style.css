@@ -250,20 +250,19 @@ footer{
     }
 
     #playlist.d-none{
-        display: block;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
     }
-
+    
     #top-bar .d-none, #bottom-bar .d-none{
         display: inline;
     }
-
-    #playlist{
+    
+    #playlist.d-none ul.scroll{
+        overflow-y: auto;
         flex-grow: 1;
-        display: flex;
-    }
-
-    #playlist ul{
-       flex-grow: 1;
+       
     }
 
     
