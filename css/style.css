@@ -156,12 +156,26 @@ main{
 }
 
 /*side-bar*/
+
 #side-bar{
     height:100%;
     width: 50px;
-    min-height: 400px;
+    /* min-height: 400px; */
     background-color: var(--black-color);
 }
+
+.list{
+    height: 100%;
+}
+
+#playlist ul{
+    height: clac(100%-50px);
+}
+
+#bottom-bar{
+    height: 50px;
+}
+
 
 
 
