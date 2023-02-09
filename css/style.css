@@ -160,19 +160,19 @@ main{
 }
 
 .top-bar{
-    height: calc(100% - 50px);
+    
 }
 
 .top-bar .playlist-bar{
-    max-height: 150px;
+    
 }
 
 .top-bar .playlist-bar ul{
-    max-height: 150px;
+    
 }
 
 .bottom-bar{
-    height: 50px;
+    
 }
 
 
@@ -257,14 +257,6 @@ footer{
 
     #content nav ul li{
         width: calc(100% / 3 - 30px);
-    }
-
-    #side-bar .d-none{
-        display: inline-block;
-    }
-
-    #side-bar .playlist.d-none{
-        display: block;
     }
 
 
