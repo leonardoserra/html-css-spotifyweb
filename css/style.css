@@ -350,6 +350,19 @@ footer{
     font-size: 30px;
 }
 
+.slider{
+    background-color: var(--dark-grey-color);
+    height: 5px;
+    width: 100%;
+    margin: 20px 20px;
+    border-radius: 2.5px;
+}
+
+.percent{
+    background-color: var(--light-grey-color);
+    width: 20%;
+}
+
 /************************
     HOVER RULES
 ************************/
