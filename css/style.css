@@ -177,7 +177,7 @@ main{
 }
 
 #top-bar{
-    height: calc(100% - 50px);
+    height: calc(100% - 100px);
 }
 
 #top-bar a{
@@ -197,7 +197,7 @@ main{
 }
 
 #bottom-bar{
-    height: 50px;
+    height: 100px;
 }
 
 #bottom-bar a {
@@ -305,6 +305,7 @@ footer{
 
     #top-bar > a {
         margin-bottom: 10px;
+        height: 40px;
     }
 
     #top-bar > a > span,
@@ -325,6 +326,11 @@ footer{
     #top-bar #search img,
     #top-bar #library img {
         width: 25px;
+    }
+
+    #bottom-bar > a {
+        margin-bottom: 10px;
+        height: 20px;
     }
     
 
