@@ -288,10 +288,19 @@ section > h2 {
     margin-right: 5px;
     margin-bottom: 15px;
     margin-top: 40px;
+
+     
+
 }
 
 .col h3 {
     margin: 10px 0;
+
+}
+
+.circular-frame{
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 
@@ -303,9 +312,17 @@ footer{
 }
 
 
+/************************
+    HOVER RULES
+************************/
+
+body a:hover{
+    color:var(--white-color);
+}
+
 
 /************************
-       RESPONSIVE RULES
+    RESPONSIVE RULES
 ************************/
 
 
