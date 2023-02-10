@@ -163,9 +163,10 @@ main{
     background-color: var(--black-color);
 }
 
-#top-bar div{
+#top-bar a{
     width: 100%;
     padding: 5px;
+    display: inline-block;
 }
 
 #top-bar{
@@ -174,6 +175,12 @@ main{
 
 #bottom-bar{
     height: 50px;
+}
+
+#bottom-bar a {
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
 }
 
 
@@ -282,6 +289,10 @@ footer{
         display: inline-block;
     }
 
+    #top-bar > #logo > span:first-child{
+        display: none;
+    }
+
     #top-bar img{
         height: 100%;
     }
@@ -289,14 +300,15 @@ footer{
 
 
     /*playlist*/
-    #playlist.d-none{
+
+    #playlist{
         display: flex;
         height: 100%;
         flex-direction: column;
         min-height: 250px;
     }
     
-    #playlist.d-none ul.scroll{
+    #playlist ul.scroll{
         overflow-y: auto;
         flex-grow: 1;
        
@@ -332,15 +344,6 @@ footer{
 
 }
 
-
-/*overflow sidebar playlist*/
-
-/* @media screen and (max-height: 650px) {
-    .top-bar .playlist .playlist-bar {
-        overflow-y: auto;
-    }
-
-} */
 
 
 
