@@ -296,6 +296,12 @@ footer{
         width: calc(100% / 3 - 30px);
     }
 
+    
+    #side-bar img {
+        vertical-align: middle;
+    }
+
+
     /*top-bar*/
 
     #top-bar{
@@ -310,7 +316,7 @@ footer{
 
     #top-bar > a > span,
     #bottom-bar > a > span{
-        height: 50px;
+        /* height: 50px; */
         display: inline-block;
     }
 
