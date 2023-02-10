@@ -133,7 +133,7 @@ a {
 }
 
 .btn{
-    padding: 15px 30px;
+    padding: 10px 30px;
     border: 3px solid var(--grey-color);
     border-radius: 50px;
 }
@@ -327,6 +327,10 @@ footer{
         display: inline-block;
     }
 
+    #top-bar #logo{
+        padding-left: 3px;
+        margin-bottom: 15px;
+    }
     #top-bar > #logo > span:first-child{
         display: none;
     }
