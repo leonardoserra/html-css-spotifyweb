@@ -174,11 +174,12 @@ main{
     height:100%;
     width: 50px;
     background-color: var(--black-color);
+    padding-top: 10px;
 }
 
 #top-bar{
     height: calc(100% - 100px);
-    padding-top: 10px;
+    
 
 }
 
@@ -284,6 +285,7 @@ footer{
 
     #side-bar{
         width: 200px;
+        padding-left: 10px;
     }
 
     #content{
@@ -310,6 +312,7 @@ footer{
     #top-bar{
         display: flex;
         flex-direction: column;
+        height: 325px;
     }
 
     #top-bar > a {
@@ -356,8 +359,6 @@ footer{
     }
     
 
-
-
     /*playlist*/
 
     #playlist {
@@ -365,6 +366,7 @@ footer{
         height: 100%;
         flex-direction: column;
         min-height: 250px;
+        padding-left: 5px;
     }
     
     #playlist ul.scroll {
