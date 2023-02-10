@@ -253,6 +253,7 @@ main{
 
 #content nav{
     margin-top:80px;
+    
 }
 
 #content nav ul{
@@ -261,9 +262,10 @@ main{
 
 #content nav ul li{
     width: calc(100% / 4 - 30px);
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 15px;
+    font-size: 10px;
 }
 
 /*   section    */
