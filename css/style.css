@@ -51,6 +51,7 @@ body{
 
 a {
     text-decoration: none;
+    color: var(--dark-grey-color);
 }
 
 
@@ -77,6 +78,18 @@ a {
 
 .white-text{
     color: var(--white-color);
+}
+
+.grey-dark-text{
+    color: var(--dark-grey-color);
+}
+
+.black-text{
+    color: var(--black-color);
+}
+
+.bg-grey{
+    background-color: #808080;
 }
 
 .d-flex{
@@ -319,14 +332,14 @@ footer{
 
     /*playlist*/
 
-    #playlist{
+    #playlist {
         display: flex;
         height: 100%;
         flex-direction: column;
         min-height: 250px;
     }
     
-    #playlist ul.scroll{
+    #playlist ul.scroll {
         overflow-y: auto;
         flex-grow: 1;
        
