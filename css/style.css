@@ -273,11 +273,11 @@ footer{
         flex-direction: column;
     }
 
-    #top-bar > div {
+    #top-bar > a {
         margin-bottom: 10px;
     }
 
-    #top-bar > div > span{
+    #top-bar > a > span{
         height: 50px;
         display: inline-block;
     }
