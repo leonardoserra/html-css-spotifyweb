@@ -88,8 +88,12 @@ a {
     color: var(--black-color);
 }
 
+.grey-text{
+    color: var(--grey-color);
+}
+
 .bg-grey{
-    background-color: #808080;
+    background-color: var(--grey-color);
 }
 
 .d-flex{
@@ -320,11 +324,16 @@ footer{
 
 #footer-left{
     width: 200px;
+    height: 100px;
+    padding: 10px;
 }
 
+#footer-left i{
+    margin-left: 5px;
+}
 #footer-cover{
-    width: 35%;
-    padding-left: 10px;
+    width: 60%;
+    gap: 10px;
 }
 
 /************************
@@ -332,20 +341,24 @@ footer{
 ************************/
 
 #side-bar a:hover,
-#content nav a:hover {
+#content nav a:hover,
+#footer-left a:hover {
     color:var(--white-color);
     cursor: pointer;
 }
 
-.call-to-action .btn:hover{
+.call-to-action .btn:hover {
     scale: 1.1;
 }
 
 section .col  div.grey-dark-text:hover,
-section  h2:first-child:hover{
+section  h2:first-child:hover,
+#footer-left h6:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+
+
 
 
 
