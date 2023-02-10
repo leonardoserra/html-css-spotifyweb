@@ -164,6 +164,10 @@ a {
     overflow-y: hidden;
 }
 
+.w-100{
+    width: 100%;
+}
+
 
 
 /************************
@@ -280,6 +284,7 @@ section{
     margin-right: 10px;
     margin-bottom: 15px;
     margin-top: 40px;
+    line-height: 2rem;
 }
 
 
