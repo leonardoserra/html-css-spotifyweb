@@ -280,6 +280,7 @@ section{
 
 section a > h2 {
     margin-bottom: 15px;
+    display: inline-block;
 }
 
 .col{
@@ -293,6 +294,10 @@ section a > h2 {
 .col h3 {
     margin: 10px 0;
 
+}
+
+.col div.grey-dark-text{
+    display: inline-block;
 }
 
 .circular-frame{
@@ -319,7 +324,7 @@ footer{
     cursor: pointer;
 }
 
-section .col  .grey-dark-text:hover,
+section .col  div.grey-dark-text:hover,
 section  h2:first-child:hover{
     text-decoration: underline;
     cursor: pointer;
