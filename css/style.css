@@ -350,6 +350,8 @@ footer{
     font-size: 30px;
 }
 
+/*regole barra*/
+
 .slider{
     background-color: var(--dark-grey-color);
     height: 5px;
@@ -358,9 +360,32 @@ footer{
     border-radius: 2.5px;
 }
 
+#time-bar .percent{
+    width: 25%;
+}
 .percent{
+    position: relative;
     background-color: var(--light-grey-color);
-    width: 20%;
+    height: 100%;
+    border-radius: 2.5px;
+}
+.status{
+    display: none;
+    position: absolute;
+    bottom:-4px;
+    left:90%;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: var(--green-acid-color);
+}
+
+.slider:hover .percent{
+    background-color: var(--green-acid-color);
+}
+.slider:hover .status {
+    display:block;
+
 }
 
 /************************
