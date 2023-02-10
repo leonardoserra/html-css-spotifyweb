@@ -132,6 +132,14 @@ a {
     text-align: right;
 }
 
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
 .btn{
     padding: 10px 30px;
     border: 3px solid var(--grey-color);
@@ -178,7 +186,7 @@ main{
 }
 
 #top-bar{
-    height: calc(100% - 100px);
+    height: calc(100% - 60px);
     
 
 }
@@ -201,13 +209,26 @@ main{
 }
 
 #bottom-bar{
-    height: 100px;
+    height: 60px;
 }
 
 #bottom-bar a {
     width: 100%;
     padding: 5px;
     display: inline-block;
+}
+
+#bottom-bar #download img {
+    width: 15px;
+}
+
+#bottom-bar #user img {
+    width: 20px;
+    height: 20px;
+    padding:1px;
+    background-color: var(--grey-color);
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 
@@ -327,6 +348,7 @@ footer{
         padding-left: 3px;
         margin-bottom: 15px;
     }
+
     #top-bar > #logo > span:first-child{
         display: none;
     }
@@ -341,22 +363,13 @@ footer{
         width: 25px;
     }
 
+    #bottom-bar{
+        text-align: left;
+        height: auto;
+    }
     #bottom-bar > a {
         margin-bottom: 10px;
         height: 25px;
-    }
-
-    #bottom-bar #download img {
-        width: 15px;
-    }
-
-    #bottom-bar #user img {
-        width: 20px;
-        height: 20px;
-        padding:1px;
-        background-color: var(--grey-color);
-        object-fit: cover;
-        border-radius: 50%;
     }
     
 
