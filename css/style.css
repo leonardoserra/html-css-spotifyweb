@@ -363,12 +363,14 @@ footer{
 #time-bar .percent{
     width: 25%;
 }
+
 .percent{
     position: relative;
     background-color: var(--light-grey-color);
     height: 100%;
     border-radius: 2.5px;
 }
+
 .status{
     display: none;
     position: absolute;
@@ -380,13 +382,7 @@ footer{
     background-color: var(--green-acid-color);
 }
 
-.slider:hover .percent{
-    background-color: var(--green-acid-color);
-}
-.slider:hover .status {
-    display:block;
 
-}
 
 /************************
     HOVER RULES
@@ -411,6 +407,13 @@ section  h2:first-child:hover,
     cursor: pointer;
 }
 
+.slider:hover .percent{
+    background-color: var(--green-acid-color);
+}
+.slider:hover .status {
+    display:block;
+
+}
 
 
 
@@ -564,7 +567,12 @@ section  h2:first-child:hover,
 
 }
 
+@media screen and (max-height: 650px) {
 
+    .call-to-action{
+        display: none;
+    }
+}
 
 
 
