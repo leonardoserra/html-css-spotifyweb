@@ -278,7 +278,7 @@ section{
     margin-top:20px;
 }
 
-section > h2 {
+section a > h2 {
     margin-bottom: 15px;
 }
 
@@ -288,9 +288,6 @@ section > h2 {
     margin-right: 5px;
     margin-bottom: 15px;
     margin-top: 40px;
-
-     
-
 }
 
 .col h3 {
@@ -319,12 +316,14 @@ footer{
 #side-bar a:hover,
 #content nav a:hover {
     color:var(--white-color);
+    cursor: pointer;
 }
 
-section .col a h4:hover{
+section .col  .grey-dark-text:hover,
+section  h2:first-child:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
-
 
 
 
