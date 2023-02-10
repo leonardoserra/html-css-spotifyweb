@@ -324,7 +324,7 @@ footer{
     }
 
 
-    /*top-bar*/
+    /*     top-bar      */
 
     #top-bar{
         display: flex;
@@ -340,7 +340,6 @@ footer{
 
     #top-bar > a > span,
     #bottom-bar > a > span{
-        /* height: 50px; */
         display: inline-block;
     }
 
@@ -361,7 +360,12 @@ footer{
     #top-bar #search img,
     #top-bar #library img {
         width: 25px;
+        padding-bottom: 5px;
     }
+
+
+    /*    bottom-bar    */
+
 
     #bottom-bar{
         text-align: left;
@@ -372,8 +376,11 @@ footer{
         height: 25px;
     }
     
+    #bottom-bar #user{
+        border-top: 2px solid var(--dark-grey-color);
+    }
 
-    /*playlist*/
+    /*    playlist    */
 
     #playlist {
         display: flex;
