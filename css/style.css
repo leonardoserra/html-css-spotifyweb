@@ -354,6 +354,9 @@ footer{
     font-size: 20px;
 }
 
+#time-bar{
+    width: 100%;
+}
 
 #footer-center i:nth-child(3){
     font-size: 25px;
@@ -365,6 +368,10 @@ footer{
 
 #footer-right i{
     margin-right: 15px;
+}
+
+#volume {
+    width: 50%;
 }
 
 /*regole barra*/
