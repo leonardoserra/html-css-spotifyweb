@@ -390,6 +390,13 @@ footer{
        
     }
 
+
+    #create-playlist{
+        margin: 1rem 0;
+        gap: 5px;
+    }
+   
+
     #create-playlist i{
         padding: 0 2px;
         font-size: 2rem;
