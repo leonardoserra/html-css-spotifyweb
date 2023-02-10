@@ -316,9 +316,16 @@ footer{
     HOVER RULES
 ************************/
 
-body a:hover{
+#side-bar a:hover,
+#content nav a:hover {
     color:var(--white-color);
 }
+
+section .col a h4:hover{
+    text-decoration: underline;
+}
+
+
 
 
 /************************
