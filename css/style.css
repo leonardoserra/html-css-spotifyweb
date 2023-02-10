@@ -284,7 +284,8 @@ footer{
         margin-bottom: 10px;
     }
 
-    #top-bar > a > span{
+    #top-bar > a > span,
+    #bottom-bar > a > span{
         height: 50px;
         display: inline-block;
     }
