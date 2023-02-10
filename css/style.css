@@ -116,6 +116,10 @@ a {
     justify-content: space-between;
 }
 
+.jusify-self-start{
+    justify-self: flex-start;
+}
+
 .align-center{
     align-items: center;
 }
@@ -323,7 +327,7 @@ footer{
 }
 
 #footer-left{
-    width: 200px;
+    width: 250px;
     height: 100px;
     padding: 10px;
 }
@@ -331,9 +335,19 @@ footer{
 #footer-left i{
     margin-left: 5px;
 }
+
 #footer-cover{
-    width: 60%;
     gap: 10px;
+    
+}
+
+#footer-cover img{
+    width: 50px;
+}
+
+#footer-center i{
+    margin: 0 25px;
+    font-size: 30px;
 }
 
 /************************
@@ -347,7 +361,8 @@ footer{
     cursor: pointer;
 }
 
-.call-to-action .btn:hover {
+.call-to-action .btn:hover,
+.fa-circle-play:hover {
     scale: 1.1;
 }
 
