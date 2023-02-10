@@ -212,10 +212,6 @@ main{
 
 
 
-
-
-
-
 /*content*/
 
 #content{
@@ -372,6 +368,7 @@ footer{
         flex-direction: column;
         min-height: 250px;
         padding-left: 5px;
+        line-height: 2rem;
     }
     
     #playlist ul.scroll {
@@ -380,7 +377,10 @@ footer{
        
     }
 
-    
+    #create-playlist i{
+        padding: 0 2px;
+        font-size: 2rem;
+    }
 }
 
 /*MEDIUM*/
