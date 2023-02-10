@@ -120,8 +120,8 @@ a {
 }
 
 .btn{
-    padding: 10px 20px;
-    border: 3px solid white;
+    padding: 15px 30px;
+    border: 3px solid var(--grey-color);
     border-radius: 50px;
 }
 
@@ -159,10 +159,26 @@ main{
 
 #side-bar{
     height:100%;
-    width: 50px;
-    /* min-height: 400px; */
+    width: 40px;
     background-color: var(--black-color);
 }
+
+#top-bar div{
+    width: 100%;
+    padding: 5px;
+    height: 60px;
+}
+
+#top-bar{
+    height: calc(100% - 50px);
+}
+
+#bottom-bar{
+    height: 50px;
+}
+
+
+
 
 
 
@@ -170,21 +186,23 @@ main{
 /*content*/
 
 #content{
-    width: calc(100% - 50px);
+    width: calc(100% - 40px);
     background-color: var(--dark-blue-color);
 }
 
 .call-to-action{
     top:0;
-    left: 50px;
-    width: calc(100vw - 50px);
+    left: 40px;
+    width: calc(100vw - 40px);
     background-color: var(--layover-light-black);
     height: 50px;
     z-index: 9999;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 #content nav{
-    margin-top:50px;
+    margin-top:80px;
 }
 
 #content nav ul{
@@ -249,15 +267,34 @@ footer{
         width: calc(100% / 3 - 30px);
     }
 
+    /*top-bar*/
+
+    #top-bar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #top-bar > div {
+        margin-bottom: 10px;
+    }
+
+    #top-bar > div > span{
+        height: 50px;
+        display: inline-block;
+    }
+
+    #top-bar img{
+        height: 100%;
+    }
+
+
+
+    /*playlist*/
     #playlist.d-none{
         display: flex;
         height: 100%;
         flex-direction: column;
         min-height: 250px;
-    }
-    
-    #top-bar .d-none, #bottom-bar .d-none{
-        display: inline;
     }
     
     #playlist.d-none ul.scroll{
