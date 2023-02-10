@@ -278,6 +278,10 @@ section{
     margin-top:20px;
 }
 
+section > h2 {
+    margin-bottom: 15px;
+}
+
 .col{
     width: calc(100% / 2 - 10px);
     margin-left: 5px;
