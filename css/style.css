@@ -330,7 +330,19 @@ footer{
 
     #bottom-bar > a {
         margin-bottom: 10px;
+        height: 25px;
+    }
+
+    #bottom-bar #download img {
+        width: 15px;
+    }
+
+    #bottom-bar #user img {
+        width: 20px;
         height: 20px;
+        background-color: var(--grey-color);
+        object-fit: cover;
+        border-radius: 50%;
     }
     
 
