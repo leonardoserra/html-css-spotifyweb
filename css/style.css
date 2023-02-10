@@ -357,6 +357,7 @@ footer{
     #bottom-bar #user img {
         width: 20px;
         height: 20px;
+        padding:1px;
         background-color: var(--grey-color);
         object-fit: cover;
         border-radius: 50%;
