@@ -159,8 +159,12 @@ main{
 
 #side-bar{
     height:100%;
-    width: 40px;
+    width: 50px;
     background-color: var(--black-color);
+}
+
+#top-bar{
+    height: calc(100% - 50px);
 }
 
 #top-bar a{
@@ -169,8 +173,14 @@ main{
     display: inline-block;
 }
 
-#top-bar{
-    height: calc(100% - 50px);
+#top-bar #logo img {
+    height: 30px;
+}
+
+#top-bar #home img,
+#top-bar #search img,
+#top-bar #library img {
+    width: 22px;
 }
 
 #bottom-bar{
@@ -192,14 +202,14 @@ main{
 /*content*/
 
 #content{
-    width: calc(100% - 40px);
+    width: calc(100% - 50px);
     background-color: var(--dark-blue-color);
 }
 
 .call-to-action{
     top:0;
-    left: 40px;
-    width: calc(100vw - 40px);
+    left: 50px;
+    width: calc(100vw - 50px);
     background-color: var(--layover-light-black);
     height: 50px;
     z-index: 9999;
@@ -294,9 +304,16 @@ footer{
         display: none;
     }
 
-    #top-bar img{
-        height: 100%;
+    #top-bar #logo img {
+        height: 35px;
     }
+    
+    #top-bar #home img,
+    #top-bar #search img,
+    #top-bar #library img {
+        width: 25px;
+    }
+    
 
 
 
