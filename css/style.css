@@ -323,11 +323,13 @@ section a > h2 {
 /*footer*/
 
 footer{
+    width: 100%;
     height: 100px;
     background-color: var(--light-black-color);
 }
 
-#footer-left{
+#footer-left,
+#footer-right {
     width: 250px;
     height: 100px;
     padding: 10px;
@@ -352,8 +354,17 @@ footer{
     font-size: 20px;
 }
 
+
 #footer-center i:nth-child(3){
     font-size: 25px;
+}
+
+#footer-right .percent{
+    width: 50%;
+}
+
+#footer-right i{
+    margin-right: 15px;
 }
 
 /*regole barra*/
@@ -385,7 +396,7 @@ footer{
     height: 12px;
     width: 12px;
     border-radius: 50%;
-    background-color: var(--green-acid-color);
+    background-color: var(--grey-color);
 }
 
 
