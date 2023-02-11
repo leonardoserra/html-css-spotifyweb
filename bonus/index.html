@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spotify Lettore Web</title>
+        <link rel="icon" type="image/x-icon" href="./img/favicon.svg" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css" />
+
+    </head>
+
+
+    <body class="pos-rel">
+
+
+
+        <!------------    MAIN   ------------>
+        <main class="d-flex overflow-y-hidden">
+
+
+            <!------------    aside   ------------>
+
+            <aside id="side-bar" class="d-flex direction-column">
+                
+                <div id="top-bar" class="">
+                   
+                    <a id="logo" class="white-text" href="#">
+                        <span class="">
+                            <img src="./img/logo-small.svg" alt="logo-small" />
+                        </span>
+                        <span class="d-none"> 
+                            <img src="./img/logo.svg" alt="logo" />
+                        </span>
+                        
+                    </a>
+
+                    <a id="home" href="#">
+                        <span class="">
+                            <img src="./img/home.svg" alt="Home-logo" />
+                        </span>
+                        <span class="d-none"> 
+                            <h4>Home</h4>
+                        </span>
+                        
+                    </a>
+
+                    <a id="search" href="#">
+                        <span class="">
+                            <img src="./img/search.svg" alt="Search-logo" />
+                        </span>
+                        <span class="d-none"> 
+                            <h4>Search</h4>
+                        </span>
+                    </a>
+
+                    <a id="library" href="#">
+                        <span class="">
+                            <img src="./img/libreria.svg" alt="Library-logo" />
+                        </span>
+                        <span class="d-none"> 
+                            <h4>La tua Libreria</h4>
+                        </span>
+                    </a>
+
+                </div>
+                
+                <div id="playlist" class="d-none overflow-y-hidden">
+                    
+                    <h3 class="white-text">PLAYLIST</h3>
+
+                    <a id="create-playlist" class="d-flex align-center" href="#">
+                        <span>
+                            <i class="fa-solid fa-plus bg-grey black-text"></i>
+                        </span>
+                        <span class="">Crea Playlist</span>
+                    </a>
+
+                    <ul class="scroll">
+
+                        <li class=""> 
+                            <a href="#">LOFI BEATS</a>
+                        </li>
+
+                        <li class=""> 
+                            <a href="#">Nome Playlist</a>
+                        </li>
+
+                        <li class=""> 
+                            <a href="#">Nome Playlist</a>
+                        </li>
+
+                        <li class=""> 
+                            <a href="#">Nome Playlist</a>
+                        </li>
+
+                        <li class=""> 
+                            <a href="#">Nome Playlist</a>
+                        </li>
+
+                        <li class=""> 
+                            <a href="#">Nome Playlist</a>
+                        </li>
+
+                        <li class=""> 
+                            <a href="#">Nome Playlist</a>
+                        </li>
+
+                        <li class=""> 
+                            <a href="#">Nome Playlist</a>
+                        </li>
+
+                        <li class=""> 
+                            <a href="#">Nome Playlist</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div id="bottom-bar" class="text-center">
+
+                    <a href="#" id="download">
+                        <span class="">
+                            <img src="./img/download.svg" alt="download" />
+                        </span>
+                        <span class="d-none">Installa App</span>
+                    </a>
+
+                    <a href="#" id="user">
+                        <span class="">
+                            <img src="./img/profile.svg" alt="download" />
+                        </span>
+                        <span class="d-none white-text"><h4>Giggi</h4></span>
+                    </a>
+
+                </div>
+               
+            </aside>
+
+
+
+            <!------------    content   ------------>
+
+            <div id="content" class="scroll">
+
+                <div class="call-to-action d-flex pos-fix">
+                    <a class="btn white-text" href="#">EFFETTUA L'UPGRADE</a>
+                </div>
+
+                <nav>
+                    <ul class="d-flex wrap justify-center text-center">
+
+                        <li class="">
+                            <a href="#" ><h3>IN EVIDENZA</h3></a>
+                        </li>
+
+                        <li class="">
+                            <a href="#" ><h3>PODCAST</h3></a>
+                        </li>
+
+                        <li class="">
+                            <a href="#" ><h3>CLASSIFICHE</h3></a>
+                        </li>
+
+                        <li class="">
+                            <a href="#" ><h3>GENERI E MOOD</h3></a>
+                        </li>
+
+                        <li class="">
+                            <a href="#" ><h3>NUOVE USCITE</h3></a>
+                        </li>
+
+                        <li class="">
+                            <a href="#" ><h3>SCOPRI</h3></a>
+                        </li>
+                        
+                    </ul>
+                </nav>
+
+                <div class="container">
+
+                    <section id="recent">
+                        
+                        <a href="#">
+                            <h2 class="white-text">Recently Played</h2>
+                        </a>
+
+                        <div class="row d-flex wrap">
+
+                            <div class="col text-center">
+                                
+                                <a href="#">
+                                    <div class="pos-rel w-100">
+                                            
+                                            <div class="layover">
+                                                <i class="fa-solid fa-circle-play"></i>
+                                            </div>
+                                        
+                                            <img class="w-100" src="./img/metal_lifting.jpg" alt="heavy-metal" />
+                                    </div>
+
+                                    <div class="white-text">
+                                        <h3>Heavy Metal</h3>
+                                    </div>
+                                </a>
+
+                                <div class="grey-dark-text">
+                                    <a href="#">
+                                        <h4>Subtitle</h4>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col text-center">
+                                
+                                <a href="#">
+                                    <div class="pos-rel w-100">
+                                            
+                                            <div class="layover">
+                                                <i class="fa-solid fa-circle-play"></i>
+                                            </div>
+                                        <img class="w-100" src="./img/stranger.jpeg" alt="stranger-things" />
+                                    </div>
+                                    <div class="white-text">
+                                        <h3>Stranger Things Vol. 1 (a Netflix Original Series Soundtrack)</h3>
+                                    </div>
+                                </a>
+
+                                <div class="grey-dark-text">
+                                    <a href="#">
+                                        <h4>Kyle Dixon & Michael Stein</h4>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col text-center">
+                                
+                                <a href="#">
+                                    <div class="pos-rel w-100">
+                                            
+                                            <div class="layover">
+                                                <i class="fa-solid fa-circle-play"></i>
+                                            </div>
+                                        <img class="w-100" src="./img/aquietplace.jpeg" alt="a-quite-place" />
+                                    </div>
+                                    <div class="white-text">
+                                        <h3>A quiet place</h3>
+                                    </div>
+                                </a>
+
+                                <div class="grey-dark-text">
+                                    <a href="#">
+                                        <h4>Subtitle</h4>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col text-center">
+                                
+                                <a href="#">
+                                    <div class="pos-rel w-100">
+                                            
+                                            <div class="layover">
+                                                <i class="fa-solid fa-circle-play"></i>
+                                            </div>
+                                        <img class="w-100" src="./img/split.jpeg" alt="split" />
+                                    </div>
+                                    <div class="white-text">
+                                        <h3>Split</h3>
+                                    </div>
+                                </a>
+
+                                <div class="grey-dark-text">
+                                    <a href="#">
+                                        <h4>Subtitle</h4>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col text-center">
+                                
+                                <a href="#">
+                                    <div class="pos-rel w-100">
+                                            
+                                            <div class="layover">
+                                                <i class="fa-solid fa-circle-play"></i>
+                                            </div>
+                                        <img class="w-100" src="./img/cure.jpeg" alt="cure" />
+                                    </div>
+                                    <div class="white-text">
+                                        <h3>A cure for wellness</h3>
+                                    </div>
+                                </a>
+
+                                <div class="grey-dark-text">
+                                    <a href="#">
+                                        <h4>Subtitle</h4>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col text-center">
+                                
+                                <a href="#">
+                                    <div class="pos-rel w-100">
+                                            
+                                            <div class="layover">
+                                                <i class="fa-solid fa-circle-play"></i>
+                                            </div>
+                                        <img class="w-100" src="./img/sinister.jpeg" alt="sinister" />
+                                    </div>
+                                    <div class="white-text">
+                                        <h3>Sinister</h3>
+                                    </div>
+                                </a>
+
+                                <div class="grey-dark-text">
+                                    <a href="#">
+                                        <h4>Subtitle</h4>
+                                    </a>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+                        
+
+                    </section>
+
+                    <section id="for-u">
+
+                        <a href="#">
+                            <h2 class="white-text">Creato per Giggione</h2>
+                        </a> 
+
+                        <h4 class="grey-dark-text">Piú ascolti, piú accurati saranno i suggerimenti.</h4>
+                        
+                        <div class="row d-flex wrap">
+
+                            <div class="col text-center">
+
+                                <a href="#">
+                                    <div class="pos-rel w-100">
+                                            
+                                            <div class="layover">
+                                                <i class="fa-solid fa-circle-play"></i>
+                                            </div>
+                                        <img class="w-100" src="./img/radar.jpeg" alt="release-radar" />
+                                    </div>
+
+                                    <div class="white-text">
+                                        <h3>Release Radar</h3>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <div class="col text-center">
+
+                                <a href="#">
+                                    <div class="pos-rel w-100">
+                                            
+                                            <div class="layover">
+                                                <i class="fa-solid fa-circle-play"></i>
+                                            </div>
+                                        <img class="w-100" src="./img/mixdaily.jpeg" alt="daily-mix-1" />
+                                    </div>
+
+                                    <div class="white-text">
+                                        <h3>Daily Mix 1</h3>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                        </div>
+                        
+                    </section>
+
+                    <section id="popular">
+
+                        <a href="#">
+                            <h2 class="white-text">Artisti piú popolari</h2>
+                        </a>
+
+                        <h4 class="grey-dark-text">Piú ascolti, piú accurati saranno i suggerimenti.</h4>
+
+                        <div class="row d-flex wrap">
+
+                            <div class="col text-center">
+                                <a href="#">
+                                    <div class="pos-rel w-100">
+                                            
+                                            <div class="layover">
+                                                <i class="fa-solid fa-circle-play"></i>
+                                            </div>
+                                        <img class="w-100 circular-frame" src="./img/youg.jpeg" alt="youg" />
+                                    </div>
+                                    <div class="white-text">
+                                        <h3>Lana del Rey</h3>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col text-center">
+                                <a href="#">
+                                    <div class="pos-rel w-100">
+                                            
+                                            <div class="layover">
+                                                <i class="fa-solid fa-circle-play"></i>
+                                            </div>
+                                        <img class="w-100 circular-frame" src="./img/einaudi.jpeg" alt="einaudi" />
+                                    </div>
+                                    <div class="white-text">
+                                        <h3>Einaudi</h3>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                        </div>
+
+                        
+                        
+                    </section>
+                    
+                </div>
+
+            </div>
+
+        </main>
+        
+
+
+        <!------------    FOOTER   ------------>
+
+        <footer class="d-flex space-between align-center">
+
+            <div id="footer-left" class="d-flex align-center space-between">
+
+                <div id="footer-cover" class="d-flex align-center">
+                    <div>
+                        <img class="" src="./img/player_left.jpg" alt="footer-cover">
+                    </div>
+
+                    <span class="jusify-self-start">
+                        <a href="#">
+                            <h5 class="white-text">Song</h5>
+                        </a>
+                        <a href="#">
+                            <h6 class="grey-text">brano</h6>
+                        </a>
+                    </span>
+                </div>  
+                
+                <div class="grey-text">
+                    
+                    <a href="#"> 
+                        <i class="fa-regular fa-folder"></i>
+                    </a>
+                    
+                    <a href="#"> 
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+
+                </div>
+            </div>
+            
+            <div id="footer-center" class="white-text text-center">
+
+                <div id="controls" class="d-flex align-center justify-center">
+                    <i class="fa-solid fa-shuffle"></i>
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-regular fa-circle-play"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                    <i class="fa-solid fa-rotate-right"></i>
+                </div>
+
+                <div id="time-bar" class="d-flex align-center space-between">
+                    <div class="time-gone">0:25</div>
+
+                    <div class="actual-time">
+
+                        <div class="slider">
+                            <div class="percent">
+                                <div class="status"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="time-remain">4:30</div>
+                    
+                </div>
+            </div>
+
+            <div id="footer-right" class="d-flex space-between align-center grey-text">
+                
+                <div id="right-control">
+
+                    <span class="">
+                        <i class="fa-solid fa-list"></i>
+                    </span>
+                    
+                    <span class="">
+                        <i class="fa-solid fa-desktop"></i>
+                    </span>
+
+                    <span class="">
+                        <i class="fa-solid fa-volume-high"></i>
+                    </span>
+                    
+                </div>
+                
+                <div id="volume" class="d-flex justify-center">
+                   
+                    
+                    <div class="slider">
+                        <div class="percent">
+                            <div class="status"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
