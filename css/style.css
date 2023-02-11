@@ -453,6 +453,28 @@ section  h2:first-child:hover,
     cursor: pointer;
 }
 
+.layover{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    color: var(--dark-grey-color);
+}
+
+#popular .layover{
+    border-radius: 50%;
+}
+
+.row .col > a:hover .layover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .slider:hover .percent{
     background-color: var(--green-acid-color);
 }
