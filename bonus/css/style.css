@@ -613,7 +613,18 @@ section  h2:first-child:hover,
         padding: 0 2px;
         font-size: 2rem;
     }
+
+    /*    footer     */
+
+
+    #volume{
+        display: flex;
+        justify-content: center;
+    }
 }
+
+
+
 
 /*MEDIUM*/
 
